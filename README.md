@@ -4,7 +4,7 @@
 
 Submitted by: **Surbhi Jain**
 
-Time spent: **3** hours spent in total
+Time spent: **6** hours spent in total
 
 ## User Stories
 
@@ -14,21 +14,21 @@ The following **required** functionality is complete:
 
 The following **optional** features are implemented:
 
+* [ ] Settings page to change the default tip percentage.
 * [ ] UI animations
-
-The following **additional** features are implemented:
+* [ ] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+![](https://i.imgur.com/iKvKMUj.gif)
 
 GIF created with [Kap](https://getkap.co/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+The hardest part of the project for me was navigating xCode and understanding all its intricacies as well as figuring out how and what to store to retain the default tip value.
 
 ## Credits
 

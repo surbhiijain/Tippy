@@ -21,8 +21,18 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self hideLabels];
+    [self.billAmountField becomeFirstResponder];
     // Do any additional setup after loading the view.
 }
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    NSInteger index = [defaults integerForKey:@"default_tip_percent_index"];
+            
+    [self.tipPercentControl setSelectedSegmentIndex:index];
+}
+
 - (IBAction)onTap:(id)sender {
     [self.view endEditing:true];
 }
